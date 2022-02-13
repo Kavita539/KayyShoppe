@@ -1,0 +1,14 @@
+.navbar{
+    padding: 1rem;
+    height: 4.5rem;
+}
+
+.burger-menu-button {
+    display: none;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    border: none;
+    width: 2rem;
+    background-color: var(--bg-color);
+  }

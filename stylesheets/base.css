@@ -1,0 +1,20 @@
+* {
+  background-color: var(--pure-white);
+}
+
+:root {
+    /* colors */
+    --banner-bg-color: rgba(255, 255, 255, 0.301);
+    --banner-content-bg-color: hsl(0 0% 100% / 0.85);
+  
+    /* font-family */
+    --font-family-ultra: "ultraregular", sans-serif;
+  
+    /* spacing */
+    --sm-space: 0.5rem;
+    --md-space: 1rem;
+    --lg-space: 1.5rem;
+    --xl-space: 2rem;
+    --xxl-space: 2.5rem;
+    --xxxl-space: 3rem;
+  }
