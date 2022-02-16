@@ -1,11 +1,14 @@
-* {
-  background-color: var(--pure-white);
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
 }
 
 :root {
     /* colors */
     --banner-bg-color: rgba(255, 255, 255, 0.301);
     --banner-content-bg-color: hsl(0 0% 100% / 0.85);
+    --bg-color: #fafafa;
   
     /* font-family */
     --font-family-ultra: "ultraregular", sans-serif;
