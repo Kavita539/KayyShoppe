@@ -10,8 +10,6 @@ body{
     --banner-content-bg-color: hsl(0 0% 100% / 0.85);
     --bg-color: #fafafa;
   
-    /* font-family */
-    --font-family-ultra: "ultraregular", sans-serif;
   
     /* spacing */
     --sm-space: 0.5rem;
