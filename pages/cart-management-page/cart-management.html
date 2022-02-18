@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KayyShoppe | Product Listing</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cleancss.netlify.app/components/cleancss.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="cart-management.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <nav class="navbar">
+      <div class="left-navbar">
+        <button id="menu-icon-button" class="burger-menu-button navlist-link-item">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="link-no-style" href="/index.html">
+          <div class="nav-logo-title">KayyShoppe</div>
+          <div class="nav-logo-tagline">ITS KAYY TO SPLURGE!</div>
+        </a>
+      </div>
+      <ul class="right-navbar">
+        <div class="nav-search-bar">
+          <button class="btn search-btn"><i class="fas fa-search"></i></button>
+          <input class="form-field" type="text" placeholder="search">
+        </div>
+        <li>
+          <a class="navlist-link-item" href="/"> <i class="fas fa-user"></i></a>
+        </li>
+        <li>
+          <a class="navlist-link-item" href="/"> <i class="fas fa-heart fa-md"></i></a>
+        </li>
+        <li>
+          <a class="navlist-link-item" href="/cart-management.html"> <i class="fas fa-shopping-cart"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+      <div class="cart-container">
+        <h2 class="text-center">My Cart</h2>
+
+        <div class="cart">
+          <!-- cart-cards -->
+          <div class="cart-cards">
+            <div class="card horizontal-card">
+              <div class="card-image-container">
+                <img class="responsive-img rounded-top-corner-img"
+                  src="https://i.etsystatic.com/31919907/r/il/f33d52/3375401465/il_794xN.3375401465_jxlk.jpg"
+                  alt="card-img">
+              </div>
+              <div class="card-info-container">
+                <div class="card-info text-left">
+                  <div class="card-title">
+                    <div>
+                      <h3 class="card-title-header">Men Slim Fit Shirt</h3>
+                      <p class="card-description">United Colors Of Benetton</p>
+                      <p class="card-paragraph">A premium quality checkered shirt. Available in different colors.</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="discount-price">₹850</p>
+                  </div>
+                  <div class="quantity-div">
+                    <h6>Quantity : </h6>
+                    <button class="minus"> -</button>
+                    <input class="qty-count" type="number" value="1">
+                    <button class="add">+</button>
+                  </div>
+                </div>
+                <div class="card-call-to-action">
+                  <button class="btn btn-primary block-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </button>
+                  <button class="btn outline-btn-secondary block-btn">Move to wishlist</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card horizontal-card">
+              <div class="card-image-container">
+                <img class="responsive-img rounded-top-corner-img"
+                  src="https://i.etsystatic.com/31919907/r/il/f33d52/3375401465/il_794xN.3375401465_jxlk.jpg"
+                  alt="card-img">
+              </div>
+              <div class="card-info-container">
+                <div class="card-info text-left">
+                  <div class="card-title">
+                    <div>
+                      <h3 class="card-title-header">Men Slim Fit Shirt</h3>
+                      <p class="card-description">United Colors Of Benetton</p>
+                      <p class="card-paragraph">A premium quality checkered shirt. Available in different colors.</p>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="discount-price">₹850</p>
+                  </div>
+                  <div class="quantity-div">
+                    <h6>Quantity : </h6>
+                    <button class="minus"> -</button>
+                    <input class="qty-count" type="number" value="1">
+                    <button class="add">+</button>
+                  </div>
+                </div>
+                <div class="card-call-to-action">
+                  <button class="btn btn-primary block-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                  </button>
+                  <button class="btn outline-btn-secondary block-btn">Move to wishlist</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- bill-distribution -->
+          <div class="bill-distribution-div">
+            <h3>Price Details</h3>
+            <hr>
+            <div class="bill">
+              <div class="bill-unit">
+                <p>Price(4 items)</p>
+                <p>₹ 9999</p>
+              </div>
+              <div class="bill-unit">
+                <p>Discount</p>
+                <p>-₹ 4000</p>
+              </div>
+              <div class="bill-unit">
+                <p>Delivery charges</p>
+                <p>₹ 300</p>
+              </div>
+            </div>
+            <hr>
+            <div class="bill-unit">
+              <h3>Total Amount</h3>
+              <h3>₹ 6299</h3>
+            </div>
+            <hr>
+            <p>You will save ₹ 3000 on this order.</p>
+            <div class="cart-cta">
+              <button class="btn btn-primary block-btn">Place Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+
+    <footer class="footer">
+      <ul class="inline-styled-list footer-list">
+        <li>
+          <a class="footer-links" href="https://github.com/Kavita539" target="_blank"><i class='fab fa-github'></i></a>
+        </li>
+        <li>
+          <a class="footer-links" href="https://twitter.com/KavitaP_03" target="_blank"><i
+              class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a class="footer-links" href="https://www.linkedin.com/in/kavita-pathak03/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <p style="background-color: var(--secondary-color)" ;>© 2022 KayyShoppe</p>
+    </footer>
+
+  </div>
+  <script src="product-listing.js"></script>
+</body>
+
+</html>
