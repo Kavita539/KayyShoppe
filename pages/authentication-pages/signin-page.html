@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KayyShoppe | Product Listing</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cleancss.netlify.app/components/cleancss.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/pages/product-listing-page/product-listing.css" />
+    <link rel="stylesheet" href="/pages/authentication-pages/authentication.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="navbar">
+            <div class="left-navbar">
+                <button id="menu-icon-button" class="burger-menu-button navlist-link-item">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a class="link-no-style" href="./">
+                    <div class="nav-logo-title">KayyShoppe</div>
+                    <div class="nav-logo-tagline">ITS KAYY TO SPLURGE!</div>
+                </a>
+            </div>
+            <ul class="right-navbar">
+                <div class="nav-search-bar">
+                    <button class="btn search-btn"><i class="fas fa-search"></i></button>
+                    <input class="form-field" type="text" placeholder="search">
+                </div>
+                <li>
+                    <a class="navlist-link-item" href="/"> <i class="fas fa-user"></i></a>
+                </li>
+                <li>
+                    <a class="navlist-link-item" href="wishlist-page.html"> <i class="fas fa-heart fa-md"></i></a>
+                </li>
+                <li>
+                    <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i
+                            class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- signup-form -->
+        <div class="authentication-container">
+            <div class="form-div">
+                <form class="form-grp">
+                    <h3 class="text-center text-lg">SIGN IN</h3>
+                    <div class="input-grp"> <label class="form-label form-label-mandatory">Email</label>
+                        <input class="form-field" type="email" placeholder="example@xyz.com"/>
+                    </div>
+
+                    <div class="input-grp">
+                        <label class="form-label form-label-mandatory">Password</label>
+                        <input class="form-field" type="password" placeholder="*********"/>
+                        
+                        <!-- <i class="fas fa-eye-slash pos-ab pointer"></i> -->
+                    </div>
+
+                    <div class="agreement-options">
+                        <label class="form-label-agreement" for="agreement"><input type="checkbox" name="agreement" /> Remember me</label>                        
+                        <button class="btn link-btn"><a href="#" style="font-size: 0.9rem" ;>Forgot Password?</a></button>
+                    </div>
+
+                    <div class="authentication-btn-cta">
+                        <button class="btn btn-primary block-btn submit-btn">Login</button>
+                    </div>
+
+                    <div class="redirect-link text-center">
+                        <button class="btn link-btn"><a href="signup-page.html" style="font-size: 1rem" ;>Create new account&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></a></button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <ul class="inline-styled-list footer-list">
+                <li>
+                    <a class="footer-links" href="https://github.com/Kavita539" target="_blank"><i
+                            class='fab fa-github'></i></a>
+                </li>
+                <li>
+                    <a class="footer-links" href="https://twitter.com/KavitaP_03" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a class="footer-links" href="https://www.linkedin.com/in/kavita-pathak03/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+            <p style="background-color: var(--secondary-color)" ;>© 2022 KayyShoppe</p>
+        </footer>
+
+
+        <script src="product-listing.js"></script>
+</body>
+
+</html>
