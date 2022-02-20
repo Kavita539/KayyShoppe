@@ -20,8 +20,9 @@
 }
 
 .nav-search-bar {
-    width: 100%;
+    width: 30rem;
     display: flex;
+    flex-shrink: 50%;
     align-items: center;
     position: relative;
 }
@@ -38,6 +39,10 @@
     min-width: 10px;
 }
 
+.right-navbar .navlist-link-item {
+    visibility: visible;
+}
+
 @media only screen and (max-width: 1024px) {
     .burger-menu-button {
         display: block;
@@ -45,7 +50,7 @@
 
     .nav-logo-title {
         padding-top: 10px;
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .nav-logo-tagline {
@@ -59,4 +64,12 @@
         width: 100%;
         background-color: #fff;
     }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .right-navbar .navlist-link-item {
+        visibility: hidden;
+    }
+
 }

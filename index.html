@@ -12,6 +12,7 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cleancss.netlify.app/components/cleancss.css" />
+    <link rel="stylesheet" href="/stylesheets/header.css">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -23,20 +24,29 @@
                     <button id="menu-icon-button" class="burger-menu-button navlist-link-item">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <a class="link-no-style" href="index.html">
+                    <a class="link-no-style" href="./">
                         <div class="nav-logo-title">KayyShoppe</div>
                         <div class="nav-logo-tagline">ITS KAYY TO SPLURGE!</div>
                     </a>
                 </div>
+                <div class="mid-navbar">
+                    <div class="nav-search-bar">
+                        <button class="btn search-btn"><i class="fas fa-search"></i></button>
+                        <input class="form-field" type="text" placeholder="search here...">
+                    </div>
+                </div>
                 <ul class="right-navbar">
                     <li>
-                        <a class="navlist-link-item" href="/"> <i class="fas fa-user"></i></a>
+                        <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i
+                                class="fas fa-heart fa-md"></i></a>
                     </li>
                     <li>
-                        <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i class="fas fa-heart fa-md"></i></a>
+                        <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i
+                                class="fas fa-shopping-cart"></i></a>
                     </li>
                     <li>
-                        <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i class="fas fa-shopping-cart"></i></a>
+                        <a class="navlist-link-item" href="/pages/authentication-pages/signin-page.html"> <button
+                                class="btn btn-primary" style="border-radius: 4px" ;>Login</button></a>
                     </li>
                 </ul>
             </nav>
