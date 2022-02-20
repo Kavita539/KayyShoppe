@@ -12,20 +12,14 @@
 .cart {
   display: flex;
   row-gap: var(--xl-space);
-  column-gap: var(--lg-space);
+  column-gap: var(--xxl-space);
   flex-wrap: wrap;
   justify-content: center;
   width: 80%;
 }
 
-.cart-cards {
-  flex: 1 0 300px;
-  flex-direction: column;
-  row-gap: var(--lg-space);
-}
-
-.bill-distribution-div {
-  flex: 1 0 300px;
+.bill-distribution-div{
+  width: 30rem;
 }
 
 .cart-cta {
@@ -52,7 +46,6 @@
 
 .horizontal-card {
   display: flex;
-  width: fit-content;
   justify-content: space-between;
   height: 22rem;
   width: 30rem;
@@ -106,7 +99,11 @@
 }
 
 @media only screen and(max-width: 600px){
-     .horizontal-card{
+  .horizontal-card{
+    width: fit-content;
+  }
+
+     .bill-distribution-div{
        width: 100%;
      }
 }
