@@ -19,6 +19,7 @@
     align-items: center;
     margin-bottom: var(--xl-space);
     position: relative;
+    top: 2.2rem;
     background-image: url(/assets/banner-bg-image.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -49,12 +50,15 @@
 
 /* banner content */
 .banner-heading {
-    font-family: var(--font-family-ultra);
     font-size: 3rem;
     margin: auto;
     color: var(--primary-color);
     word-spacing: 20px;
     background-color: transparent;
+}
+
+.banner-initials {
+    font-size: 3rem;
 }
   
 .banner-sub-heading {
@@ -93,7 +97,6 @@
 
 .horizontal-card .card-title-header{
     font-size: 1.4rem;
-    padding: 8px;
 }
 
 .price{
@@ -177,4 +180,10 @@
 .footer-links {
     text-decoration: none;
     color: var(--black);
+}
+
+@media only screen and (max-width: 600px){
+    .card-info-container{
+        padding: 0;
+    }
 }

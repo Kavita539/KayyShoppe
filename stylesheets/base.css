@@ -9,6 +9,7 @@ body{
     --banner-bg-color: rgba(255, 255, 255, 0.301);
     --banner-content-bg-color: hsl(0 0% 100% / 0.85);
     --bg-color: #fafafa;
+    --nav-logo-custom-color: rgba(0, 0, 0, 0.6);
   
   
     /* spacing */

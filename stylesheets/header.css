@@ -15,6 +15,15 @@
     background-color: var(--bg-color);
 }
 
+/* nav-logo */
+.nav-logo-title{
+    font-size: 1.5rem;
+}
+
+.custom-color{
+    color: var(--nav-logo-custom-color);
+}
+
 .nav-logo-tagline {
     display: block;
 }
