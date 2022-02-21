@@ -117,6 +117,11 @@
     flex-wrap: wrap;
 }
 
+.card-description{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
 .overlay-text {
     font-size: 1.2rem;
     padding: var(--sm-space);
