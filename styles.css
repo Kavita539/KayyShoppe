@@ -19,7 +19,6 @@
     align-items: center;
     margin-bottom: var(--xl-space);
     position: relative;
-    /* top: 2.2rem; */
     background-image: url(/assets/banner-bg-image.jpg);
     background-repeat: no-repeat;
     background-position: top center;
