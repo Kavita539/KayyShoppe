@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cleancss.netlify.app/components/cleancss.css" />
+  <link rel="stylesheet" href="/stylesheets/header.css">
   <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="cart-management.css">
 </head>
@@ -21,137 +22,145 @@
           <i class="fas fa-bars"></i>
         </button>
         <a class="link-no-style" href="/index.html">
-          <div class="nav-logo-title">KayyShoppe</div>
-          <div class="nav-logo-tagline">ITS KAYY TO SPLURGE!</div>
+          <div class="nav-logo-title"> <span class="text-xl custom-color">K</span>ayy<span
+              class="text-xl custom-color">S</span>hoppe
+          </div>
+          <div class="nav-logo-tagline custom-color">ITS KAYY TO SPLURGE!</div>
         </a>
       </div>
-      <ul class="right-navbar">
+      <div class="mid-navbar">
         <div class="nav-search-bar">
           <button class="btn search-btn"><i class="fas fa-search"></i></button>
-          <input class="form-field" type="text" placeholder="search">
+          <input class="form-field" type="text" placeholder="search here...">
         </div>
+      </div>
+      <ul class="right-navbar">
         <li>
-          <a class="navlist-link-item" href="/"> <i class="fas fa-user"></i></a>
-        </li>
-        <li>
-          <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i class="fas fa-heart fa-md"></i></a>
+          <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i
+              class="fas fa-heart fa-md"></i></a>
         </li>
         <li>
           <a class="navlist-link-item" href="cart-management.html"> <i class="fas fa-shopping-cart"></i></a>
         </li>
+        <li>
+          <a class="navlist-link-item" href="/pages/authentication-pages/signin-page.html"> <button
+              class="btn btn-primary" style="border-radius: 4px" ;>Login</button></a>
+        </li>
       </ul>
     </nav>
 
-      <div class="cart-container">
-        <h2 class="text-center">My Cart</h2>
+    <div class="cart-container">
+      <h2 class="text-center">My Cart</h2>
 
-        <div class="cart">
-          <!-- cart-cards -->
-          <div class="cart-cards">
-            <div class="card horizontal-card">
-              <div class="card-image-container">
-                <img class="responsive-img rounded-top-corner-img"
-                  src="https://i.etsystatic.com/31919907/r/il/f33d52/3375401465/il_794xN.3375401465_jxlk.jpg"
-                  alt="card-img">
-              </div>
-              <div class="card-info-container">
-                <div class="card-info text-left">
-                  <div class="card-title">
-                    <div>
-                      <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                      <p class="card-description">United Colors Of Benetton</p>
-                      <p class="card-paragraph">A premium quality checkered shirt. Available in different colors.</p>
-                    </div>
-                  </div>
-                  <div class="price">
-                    <p class="discount-price">₹850</p>
-                  </div>
-                  <div class="quantity-div">
-                    <h6>Quantity : </h6>
-                    <button class="minus"> -</button>
-                    <input class="qty-count" type="number" value="1">
-                    <button class="add">+</button>
-                  </div>
-                </div>
-                <div class="card-call-to-action">
-                  <button class="btn btn-primary block-btn">
-                    <i class="fas fa-shopping-cart"></i>
-                    Add to cart
-                  </button>
-                  <button class="btn outline-btn-secondary block-btn">Move to wishlist</button>
-                </div>
-              </div>
+      <div class="cart">
+        <!-- cart-cards -->
+        <div class="cart-cards">
+
+          <!-- Address card -->
+          <div class="card text-card">
+            <h2 class="card-title text-bolder">Deliver to: </h2>
+            <h2 class="card-subtitle text-bold text-md">Kavita Pathak</h2>
+            <div class="card-content">Flat No. xxxx, XYZ Apartments, Mumbai-xxxxx, Maharashtra.
+              <div class="cart-cta">
+                <button class="btn outline-btn-primary block-btn">Change Address</button></div>
             </div>
-
-            <div class="card horizontal-card">
-              <div class="card-image-container">
-                <img class="responsive-img rounded-top-corner-img"
-                  src="https://i.etsystatic.com/31919907/r/il/f33d52/3375401465/il_794xN.3375401465_jxlk.jpg"
-                  alt="card-img">
+          </div>
+          <div class="card horizontal-card">
+            <div class="card-image-container">
+              <img class="responsive-img rounded-top-corner-img" src="/assets/card-1-resized-image.jpg" alt="card-img">
+            </div>
+            <div class="card-info-container">
+              <div class="card-info text-left">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Men slim fit T-Shirt</h3>
+                    <p class="card-description  text-semibold custom-color">United Colors</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="discount-price">₹850</p>
+                </div>
+                <div class="quantity-div">
+                  <button class="minus"> -</button>
+                  <input class="qty-count" type="number" value="1">
+                  <button class="add">+</button>
+                </div>
               </div>
-              <div class="card-info-container">
-                <div class="card-info text-left">
-                  <div class="card-title">
-                    <div>
-                      <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                      <p class="card-description">United Colors Of Benetton</p>
-                      <p class="card-paragraph">A premium quality checkered shirt. Available in different colors.</p>
-                    </div>
-                  </div>
-                  <div class="price">
-                    <p class="discount-price">₹850</p>
-                  </div>
-                  <div class="quantity-div">
-                    <h6>Quantity : </h6>
-                    <button class="minus"> -</button>
-                    <input class="qty-count" type="number" value="1">
-                    <button class="add">+</button>
-                  </div>
-                </div>
-                <div class="card-call-to-action">
-                  <button class="btn btn-primary block-btn">
-                    <i class="fas fa-shopping-cart"></i>
-                    Add to cart
-                  </button>
-                  <button class="btn outline-btn-secondary block-btn">Move to wishlist</button>
-                </div>
+              <div class="card-call-to-action">
+                <button class="btn btn-primary block-btn">
+                  Remove from cart
+                </button>
+                <button class="btn outline-btn-secondary block-btn">Move to wishlist</button>
               </div>
             </div>
           </div>
 
-          <!-- bill-distribution -->
-          <div class="bill-distribution-div">
-            <h3>Price Details</h3>
-            <hr>
-            <div class="bill">
-              <div class="bill-unit">
-                <p>Price(4 items)</p>
-                <p>₹ 9999</p>
+          <div class="card horizontal-card">
+            <div class="card-image-container">
+              <img class="responsive-img rounded-top-corner-img" src="/assets/resized reebok bag (1).jpg"
+                alt="card-img">
+            </div>
+            <div class="card-info-container">
+              <div class="card-info text-left">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Vinatge Douche Bag</h3>
+                    <p class="card-description  text-semibold custom-color">Reebok</p>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="discount-price">₹1500</p>
+                </div>
+                <div class="quantity-div">
+                  <button class="minus"> -</button>
+                  <input class="qty-count" type="number" value="1">
+                  <button class="add">+</button>
+                </div>
               </div>
-              <div class="bill-unit">
-                <p>Discount</p>
-                <p>-₹ 4000</p>
-              </div>
-              <div class="bill-unit">
-                <p>Delivery charges</p>
-                <p>₹ 300</p>
+              <div class="card-call-to-action">
+                <button class="btn btn-primary block-btn">
+                  Remove from cart
+                </button>
+                <button class="btn outline-btn-secondary block-btn">Move to wishlist</button>
               </div>
             </div>
-            <hr>
+          </div>
+
+        </div>
+
+        <!-- bill-distribution -->
+        <div class="bill-distribution-div">
+          <h3>Price Details</h3>
+          <hr>
+          <div class="bill">
             <div class="bill-unit">
-              <h3>Total Amount</h3>
-              <h3>₹ 6299</h3>
+              <p>Price(2 items)</p>
+              <p>₹ 2350/-</p>
             </div>
-            <hr>
-            <p>You will save ₹ 3000 on this order.</p>
-            <div class="cart-cta">
-              <button class="btn btn-primary block-btn">Place Order</button>
+            <div class="bill-unit">
+              <p>Discount</p>
+              <p>-₹ 650/-</p>
             </div>
+            <div class="bill-unit">
+              <p>Delivery charges</p>
+              <p>₹ 300/-</p>
+            </div>
+          </div>
+          <hr>
+          <div class="bill-unit">
+            <h4>Total Amount</h4>
+            <h4>₹ 2000/-</h4>
+          </div>
+          <hr>
+          <p class="text-lg">You will save <span class="text-lg text-bold">₹ 650</span> on this order.</p>
+          <div class="cart-cta">
+            <button class="btn btn-primary block-btn">Place Order</button>
           </div>
         </div>
       </div>
+    </div>
 
-    
+
 
 
     <footer class="footer">

@@ -12,6 +12,7 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cleancss.netlify.app/components/cleancss.css" />
+    <link rel="stylesheet" href="/stylesheets/header.css">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -23,28 +24,39 @@
                     <button id="menu-icon-button" class="burger-menu-button navlist-link-item">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <a class="link-no-style" href="index.html">
-                        <div class="nav-logo-title">KayyShoppe</div>
-                        <div class="nav-logo-tagline">ITS KAYY TO SPLURGE!</div>
+                    <a class="link-no-style" href="./">
+                        <div class="nav-logo-title"> <span class="text-xl custom-color">K</span>ayy<span
+                                class="text-xl custom-color">S</span>hoppe</div>
+                        <div class="nav-logo-tagline custom-color">ITS KAYY TO SPLURGE!</div>
                     </a>
+                </div>
+                <div class="mid-navbar">
+                    <div class="nav-search-bar">
+                        <button class="btn search-btn"><i class="fas fa-search"></i></button>
+                        <input class="form-field" type="text" placeholder="search here...">
+                    </div>
                 </div>
                 <ul class="right-navbar">
                     <li>
-                        <a class="navlist-link-item" href="/"> <i class="fas fa-user"></i></a>
+                        <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i
+                                class="fas fa-heart fa-md"></i></a>
                     </li>
                     <li>
-                        <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i class="fas fa-heart fa-md"></i></a>
+                        <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i
+                                class="fas fa-shopping-cart"></i></a>
                     </li>
                     <li>
-                        <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i class="fas fa-shopping-cart"></i></a>
+                        <a class="navlist-link-item" href="/pages/authentication-pages/signin-page.html"> <button
+                                class="btn btn-primary" style="border-radius: 4px" ;>Login</button></a>
                     </li>
                 </ul>
             </nav>
 
             <div class="banner">
                 <div class="banner-content text-center">
-                    <h2 class="banner-heading">KayyShoppe</h2>
-                    <p class="banner-sub-heading">ITS KAYY TO SPLURGE!</p>
+                    <h2 class="banner-heading"> <span class="banner-initials custom-color">K</span>ayy<span
+                            class="banner-initials custom-color">S</span>hoppe</h2>
+                    <p class="banner-sub-heading custom-color">ITS KAYY TO SPLURGE!</p>
                     <div class="banner-cta">
                         <a href="/pages/product-listing-page/product-listing.html" class="btn btn-primary">Shop now</a>
                         <a href="#categories" class="btn outline-btn-primary">Categories</a>
@@ -98,11 +110,11 @@
                                 alt="card-img">
                         </div>
                         <div class="card-info-container">
-                            <div class="card-info">
+                            <div class="card-info text-left">
                                 <div class="card-title">
                                     <div>
                                         <h3 class="card-title-header">Men Slim Fit T-Shirt</h3>
-                                        <p class="card-paragraph">A premium quality T-shirt. Available in
+                                        <p class="card-paragraph">A premium quality Fit T-shirt. Available in
                                             different colors.</p>
                                     </div>
                                 </div>
@@ -121,20 +133,20 @@
                     <div class="card horizontal-card card-shadow">
                         <span class="card-badge">New</span>
                         <div class="card-image-container">
-                            <img class="responsive-img rounded-top-corner-img" src="/assets/card-1-resized-image.jpg"
+                            <img class="responsive-img rounded-top-corner-img" src="/assets/nike-resized.jpg"
                                 alt="card-img">
                         </div>
                         <div class="card-info-container">
-                            <div class="card-info">
+                            <div class="card-info text-left">
                                 <div class="card-title">
                                     <div>
-                                        <h3 class="card-title-header">Men Slim Fit T-Shirt</h3>
-                                        <p class="card-paragraph">A premium quality T-shirt. Available in
-                                            different colors.</p>
+                                        <h3 class="card-title-header">Blue Mesh Shoes</h3>
+                                        <p class="card-paragraph">A premium quality shoes from nike. Affordable yet
+                                            loved.</p>
                                     </div>
                                 </div>
                                 <div class="price">
-                                    <p class="discount-price">₹850</p>
+                                    <p class="discount-price">₹2799</p>
                                 </div>
                             </div>
                             <div class="card-call-to-action">

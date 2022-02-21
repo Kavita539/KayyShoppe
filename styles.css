@@ -2,6 +2,15 @@
 @import url(/stylesheets/header.css);
 @import url(/stylesheets/utility.css);
 
+.mid-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-navbar{
+    align-items: center;
+}
+
 /* banner content */
 .banner {
     height: calc(100vh - 5.5rem);
@@ -10,6 +19,7 @@
     align-items: center;
     margin-bottom: var(--xl-space);
     position: relative;
+    top: 2.2rem;
     background-image: url(/assets/banner-bg-image.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -40,12 +50,15 @@
 
 /* banner content */
 .banner-heading {
-    font-family: var(--font-family-ultra);
     font-size: 3rem;
     margin: auto;
     color: var(--primary-color);
     word-spacing: 20px;
     background-color: transparent;
+}
+
+.banner-initials {
+    font-size: 3rem;
 }
   
 .banner-sub-heading {
@@ -84,7 +97,6 @@
 
 .horizontal-card .card-title-header{
     font-size: 1.4rem;
-    padding: 8px;
 }
 
 .price{
@@ -103,6 +115,11 @@
     column-gap: 0.8rem;
     row-gap: 0.8rem;
     flex-wrap: wrap;
+}
+
+.card-description{
+    font-size: 0.9rem;
+    letter-spacing: 1px;
 }
 
 .overlay-text {
@@ -168,4 +185,10 @@
 .footer-links {
     text-decoration: none;
     color: var(--black);
+}
+
+@media only screen and (max-width: 600px){
+    .card-info-container{
+        padding: 0;
+    }
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cleancss.netlify.app/components/cleancss.css" />
+    <link rel="stylesheet" href="/stylesheets/header.css">
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/pages/product-listing-page/product-listing.css">
 </head>
@@ -20,24 +21,30 @@
                 <button id="menu-icon-button" class="burger-menu-button navlist-link-item">
                     <i class="fas fa-bars"></i>
                 </button>
-                <a class="link-no-style" href="./">
-                    <div class="nav-logo-title">KayyShoppe</div>
-                    <div class="nav-logo-tagline">ITS KAYY TO SPLURGE!</div>
+                <a class="link-no-style" href="/index.html">
+                    <div class="nav-logo-title"> <span class="text-xl custom-color">K</span>ayy<span
+                            class="text-xl custom-color">S</span>hoppe</div>
+                    <div class="nav-logo-tagline custom-color">ITS KAYY TO SPLURGE!</div>
                 </a>
             </div>
-            <ul class="right-navbar">
+            <div class="mid-navbar">
                 <div class="nav-search-bar">
-                        <button class="btn search-btn"><i class="fas fa-search"></i></button>
-                        <input class="form-field" type="text" placeholder="search">
+                    <button class="btn search-btn"><i class="fas fa-search"></i></button>
+                    <input class="form-field" type="text" placeholder="search here...">
                 </div>
+            </div>
+            <ul class="right-navbar">
                 <li>
-                    <a class="navlist-link-item" href="/"> <i class="fas fa-user"></i></a>
+                    <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i
+                            class="fas fa-heart fa-md"></i></a>
                 </li>
                 <li>
-                    <a class="navlist-link-item" href="/pages/wishlist-page/wishlist-page.html"> <i class="fas fa-heart fa-md"></i></a>
+                    <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i
+                            class="fas fa-shopping-cart"></i></a>
                 </li>
                 <li>
-                    <a class="navlist-link-item" href="/pages/cart-management-page/cart-management.html"> <i class="fas fa-shopping-cart"></i></a>
+                    <a class="navlist-link-item" href="/pages/authentication-pages/signin-page.html"> <button
+                            class="btn btn-primary" style="border-radius: 4px" ;>Login</button></a>
                 </li>
             </ul>
         </nav>
@@ -90,7 +97,7 @@
                             <div class="card-title">
                                 <div>
                                     <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                                    <p class="card-description">United Colors Of Benetton</p>
+                                    <p class="card-description  text-semibold custom-color">United Colors</p>
                                 </div>
                                 <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
                             </div>
@@ -119,7 +126,7 @@
                             <div class="card-title">
                                 <div>
                                     <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                                    <p class="card-description">United Colors Of Benetton</p>
+                                    <p class="card-description  text-semibold custom-color">United Colors</p>
                                 </div>
                                 <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
                             </div>
@@ -148,7 +155,7 @@
                             <div class="card-title">
                                 <div>
                                     <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                                    <p class="card-description">United Colors Of Benetton</p>
+                                    <p class="card-description  text-semibold custom-color">United Colors</p>
                                 </div>
                                 <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
                             </div>
@@ -156,6 +163,60 @@
                                 <p class="discount-price">₹850</p>
                                 <p class="actual-price">₹1500</p>
                                 <p class="price-percentage">(50% OFF)</p>
+                            </div>
+                        </div>
+                        <div class="card-call-to-action">
+                            <button class="btn text-icon-btn btn-primary block-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image-container">
+                        <img class="responsive-img rounded-top-corner-img" src="/assets/resized reebok bag (1).jpg"
+                            alt="card-img">
+                    </div>
+                    <div class="card-info-container">
+                        <div class="card-info">
+                            <div class="card-title">
+                                <div>
+                                    <h3 class="card-title-header">Vintage Douche Bag</h3>
+                                    <p class="card-description  text-semibold custom-color">Reebok</p>
+                                </div>
+                                <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
+                            </div>
+                            <div class="price">
+                                <p class="discount-price">₹1500</p>
+                            </div>
+                        </div>
+                        <div class="card-call-to-action">
+                            <button class="btn text-icon-btn btn-primary block-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image-container">
+                        <img class="responsive-img rounded-top-corner-img" src="/assets/nike-resized.jpg"
+                            alt="card-img">
+                    </div>
+                    <div class="card-info-container">
+                        <div class="card-info">
+                            <div class="card-title">
+                                <div>
+                                    <h3 class="card-title-header">Blue Mesh shoes</h3>
+                                    <p class="card-description  text-semibold custom-color">Nike</p>
+                                </div>
+                                <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
+                            </div>
+                            <div class="price">
+                                <p class="discount-price">₹2799</p>
                             </div>
                         </div>
                         <div class="card-call-to-action">
@@ -177,65 +238,7 @@
                             <div class="card-title">
                                 <div>
                                     <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                                    <p class="card-description">United Colors Of Benetton</p>
-                                </div>
-                                <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
-                            </div>
-                            <div class="price">
-                                <p class="discount-price">₹850</p>
-                                <p class="actual-price">₹1500</p>
-                                <p class="price-percentage">(50% OFF)</p>
-                            </div>
-                        </div>
-                        <div class="card-call-to-action">
-                            <button class="btn text-icon-btn btn-primary block-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                                Add to cart
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image-container">
-                        <img class="responsive-img rounded-top-corner-img" src="/assets/card-1-resized-image.jpg"
-                            alt="card-img">
-                    </div>
-                    <div class="card-info-container">
-                        <div class="card-info">
-                            <div class="card-title">
-                                <div>
-                                    <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                                    <p class="card-description">United Colors Of Benetton</p>
-                                </div>
-                                <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
-                            </div>
-                            <div class="price">
-                                <p class="discount-price">₹850</p>
-                                <p class="actual-price">₹1500</p>
-                                <p class="price-percentage">(50% OFF)</p>
-                            </div>
-                        </div>
-                        <div class="card-call-to-action">
-                            <button class="btn text-icon-btn btn-primary block-btn">
-                                <i class="fas fa-shopping-cart"></i>
-                                Add to cart
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image-container">
-                        <img class="responsive-img rounded-top-corner-img" src="/assets/card-1-resized-image.jpg"
-                            alt="card-img">
-                    </div>
-                    <div class="card-info-container">
-                        <div class="card-info">
-                            <div class="card-title">
-                                <div>
-                                    <h3 class="card-title-header">Men Slim Fit Shirt</h3>
-                                    <p class="card-description">United Colors Of Benetton</p>
+                                    <p class="card-description text-semibold custom-color">United Colors</p>
                                 </div>
                                 <div class="card-heart-logo"><i class="fas fa-heart like-btn"></i></div>
                             </div>
