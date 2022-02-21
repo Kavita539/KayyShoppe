@@ -19,7 +19,7 @@
     align-items: center;
     margin-bottom: var(--xl-space);
     position: relative;
-    top: 2.2rem;
+    /* top: 2.2rem; */
     background-image: url(/assets/banner-bg-image.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -185,6 +185,12 @@
 .footer-links {
     text-decoration: none;
     color: var(--black);
+}
+
+@media only screen and (max-width: 1024px){
+    .banner{
+        top: 2.2rem;
+    }
 }
 
 @media only screen and (max-width: 600px){
