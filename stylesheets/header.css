@@ -19,6 +19,7 @@
     display: block;
 }
 
+/* search-bar */
 .nav-search-bar {
     width: 30rem;
     display: flex;
@@ -40,9 +41,10 @@
 }
 
 .right-navbar .navlist-link-item {
-    visibility: visible;
+    display: block;
 }
 
+/* media-queries */
 @media only screen and (max-width: 1024px) {
     .burger-menu-button {
         display: block;
@@ -69,7 +71,7 @@
 
 @media only screen and (max-width: 600px) {
     .right-navbar .navlist-link-item {
-        visibility: hidden;
+        display: none;
     }
 
 }
